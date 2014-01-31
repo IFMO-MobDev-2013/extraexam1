@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">exam</string>
+    <string name="edit">Редактировать</string>
+    <string name="delete">Удалить</string>
+    <string name="cancel">Отмена</string>
+    <string name="by">by Mikhov Ivan</string>
+    <string name="empty">Нет ни одной записи...</string>
+    <string name="deleting">Удаление...</string>
+    <string name="confirm_deleting">Подтвердите удаление</string>
+    <string name="fill_time">Заполните время</string>
+    <string name="incorrect_time">Недопустимое время</string>
+    <string name="xml_time_on">Время начала:</string>
+    <string name="xml_time_off">Время окончания:</string>
+    <string name="xml_period">Период (мин):</string>
+    <string name="xml_save">Сохранить</string>
+</resources>
