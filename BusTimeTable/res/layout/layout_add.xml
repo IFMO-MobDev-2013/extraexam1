@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:orientation="vertical"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent">
+
+	<ScrollView
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:id="@+id/scrollView"
+			>
+		<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent">
+			<TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
+					  android:textAppearance="?android:attr/textAppearanceMedium" android:text="Начало промежутка"
+					  android:id="@+id/textView"/>
+			<TimePicker android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/timePicker"/>
+			<TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
+					  android:textAppearance="?android:attr/textAppearanceMedium" android:text="Конец промежутка"
+					  android:id="@+id/textView2"/>
+			<TimePicker android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/timePicker2"/>
+			<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+						  android:layout_height="wrap_content" android:id="@+id/linearLayout">
+				<TextView android:layout_width="0dp" android:layout_height="fill_parent"
+						  android:textAppearance="?android:attr/textAppearanceMedium" android:text="Частота рейсов"
+						  android:id="@+id/textView3" android:layout_weight="1"
+						  android:gravity="center_vertical|center_horizontal"/>
+				<NumberPicker android:layout_width="wrap_content" android:layout_height="wrap_content"
+							  android:id="@+id/numberPicker"
+						/>
+			</LinearLayout>
+			<Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Добавить"
+					android:id="@+id/button" android:onClick="onClick"/>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>
